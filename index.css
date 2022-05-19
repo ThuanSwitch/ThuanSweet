@@ -1,0 +1,170 @@
+html , body{
+    padding:0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#loggin{
+    background-image: url("loggin-creen.jpg");
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    background-size: auto 110%;
+    background-position: center center;
+}
+#tilte{
+    position: absolute;
+    left: 50%;
+    display: block;
+    text-align: center; 
+    transform: translateX(-50%);
+    color:white;
+    font-family: 'Macondo', cursive;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+.input-box{
+    position: absolute;
+    left: 50%;
+    display: block;
+    text-align: center; 
+    transform: translateX(-50%);
+    color:white;
+    font-family: 'Macondo', cursive;
+    font-size: 50px;
+    top: 15%;
+}
+#pass-box{
+    top:24%;
+}
+.input-box input{
+    position:relative ;
+    font-size: 30px;
+}
+.input-box span{
+    position: absolute;
+    right: 105%;
+    white-space:nowrap;
+}
+#login-Button{
+    position:absolute;
+    left: 50%;
+    top: 34%;
+    transform: translateX(-88%);
+    font-size: 30px ;   
+}
+#login-Button button{   
+    font-size: 1em;
+    font-family: 'Macondo', cursive;
+    white-space: nowrap;
+}
+@media (max-width:500px){
+    #tilte{
+        font-size: 10px;
+    
+    }
+    #user-box {
+        top: 4%;
+    }
+    #pass-box{
+        top: 7%;
+    }
+    .input-box input{
+        font-size: 10px;
+    }
+    .input-box {
+        font-size: 10px;
+    }
+    #login-Button
+    {
+        font-size: 10px ;
+        top:10%;
+        transform: translateX(-81%); 
+    }
+   #line1, #line2{
+       font-size: 20px;
+       white-space: nowrap;
+   }
+}
+#sub-screen
+{
+    font-size: 20px;
+    font-family: 'Macondo', cursive;
+    background-image: url("loggin-creen.jpg");
+    height: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    background-size: auto 110%;
+    background-position: center center;
+}
+#line1 , #line2{
+    position: relative;
+}
+#line1{
+    top: 12%;
+}
+#line2{
+    top:9%;
+}
+#sub-screen{
+    display: none;
+}
+
+#game-screen{
+    display: none;
+}
+#game-screen{
+    width: 100%;
+    height: 100%;
+    background-image: url("loggin-creen.jpg");
+    background-size: auto 110%;
+    background-position: center center;
+    color: white;
+    font-size: 30px;
+    font-family:'Macondo', cursive;
+    overflow: hidden;
+}
+#Question{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(155, 14, 168, 0.849);
+    display: inline-block;
+    background-color: azure;
+    border: 2px rgba(155, 14, 168, 0.849) solid;
+}
+#yes , #no{
+    display: inline-block;
+    background-color: rgba(155, 14, 168, 0.453);
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    border: 2px white solid;
+}
+#yes {
+    position: absolute;
+    top: 50%;
+}
+#no{
+    position: absolute;
+    right: 20%;
+    top: 50%;
+}
+
+
+

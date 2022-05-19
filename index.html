@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+<script src="index.js"></script>
+</head>
+<body>
+        <div id="loggin">
+                <H1 id="tilte"> Who are you  ?</H1>
+                <div id="user-box" class="input-box">
+                    <span>Your-Name</span>
+                    <input placeholder="Vo Minh Thuan" id="user-input" type="text">
+                </div> 
+                <div id="pass-box" class="input-box">
+                    <span>Birthday</span>
+                    <input placeholder="xx/xx/xxxx" id="pass-input" type="text">
+                </div>
+                <div id="login-Button">
+                    <button onclick="change()">Go To My Heart</button>
+                </div>
+        </div>
+    <div id="sub-screen">
+        <p id="line1">Bạn Không Phải Đối Tượng Tôi Cần Tìm</p>
+        <p id="line2">あなたは私が探しているオブジェクトではありません。</p>
+    </div>
+    <div id="game-screen">
+        <div id="Question">DO YOU LOVE ME</div>
+        <div onclick="change_Yes()" id="yes">YES</div>
+        <div onmousemove="random_place()" id="no">NO</div>
+    </div>
+</body>
+</html>
